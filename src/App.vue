@@ -3,9 +3,13 @@
     <h1>Ray Blair</h1>
     <h2>Software Engineer</h2>
     <h3>Software Engineer</h3>
-    <img src="images/ray1.jpg" alt="Me!" />
+    <img src="images/ray1.jpg" alt="Ray Blair" />
     <div id="social-icons">
-      <a href="https://github.com/rayblair06" target="_blank">
+      <a
+        href="https://github.com/rayblair06"
+        target="_blank"
+        aria-label="Ray Blair's Github"
+      >
         <span class="fa-stack fa-sm" style="vertical-align: top">
           <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
           <i
@@ -14,7 +18,11 @@
           ></i>
         </span>
       </a>
-      <a href="https://twitter.com/rayblair06" target="_blank">
+      <a
+        href="https://twitter.com/rayblair06"
+        target="_blank"
+        aria-label="Ray Blair's Twitter"
+      >
         <span class="fa-stack fa-sm" style="vertical-align: top">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i
@@ -23,7 +31,11 @@
           ></i>
         </span>
       </a>
-      <a href="https://www.instagram.com/rayblair06/" target="_blank">
+      <a
+        href="https://www.instagram.com/rayblair06/"
+        target="_blank"
+        aria-label="Ray Blair's Instagram"
+      >
         <span class="fa-stack fa-sm" style="vertical-align: top">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i
@@ -32,7 +44,11 @@
           ></i>
         </span>
       </a>
-      <a href="https://www.linkedin.com/in/rayblair06/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/rayblair06/"
+        target="_blank"
+        aria-label="Ray Blair's Linkedin"
+      >
         <span class="fa-stack fa-sm" style="vertical-align: top">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i
