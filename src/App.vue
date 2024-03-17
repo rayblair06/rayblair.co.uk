@@ -1,18 +1,20 @@
 <template>
-  <div>
+  <div
+    class="table h-full w-full max-w-full bg-[#1c92d2] bg-gradient-to-t from-[#abecf9] to-[#1762a1] relative"
+  >
     <div
       class="h-[440px] w-full table-cell align-middle text-center ml-auto mg-auto"
     >
       <h1>Ray Blair</h1>
       <h2>Software Engineer</h2>
 
-      <img
+      <!-- <img
         class="mb-[25px] w-[150px] h-[150px] max-w-[95%] rounded-[50%] border-[1px] border-solid border-black"
         sizes="(max-width: 150px) 100vw, 150px"
         srcset="images/ray1_s8qhu4.jpg 150w"
-        src="images/ray1_s8qhu4.jpg"
+        src="/images/ray1_s8qhu4.jpg"
         alt="Ray Blair"
-      />
+      /> -->
 
       <div id="social-icons">
         <a
