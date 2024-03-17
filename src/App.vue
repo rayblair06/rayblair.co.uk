@@ -2,8 +2,14 @@
   <div class="container-item">
     <h1>Ray Blair</h1>
     <h2>Software Engineer</h2>
-    <h3>Software Engineer</h3>
-    <img src="images/ray1.jpg" alt="Ray Blair" />
+
+    <img
+      sizes="(max-width: 150px) 100vw, 150px"
+      srcset="images/ray1_s8qhu4.jpg 150w"
+      src="images/ray1_s8qhu4.jpg"
+      alt="Ray Blair"
+    />
+
     <div id="social-icons">
       <a
         href="https://github.com/rayblair06"
@@ -18,6 +24,7 @@
           ></i>
         </span>
       </a>
+
       <a
         href="https://twitter.com/rayblair06"
         target="_blank"
@@ -31,6 +38,7 @@
           ></i>
         </span>
       </a>
+
       <a
         href="https://www.instagram.com/rayblair06/"
         target="_blank"
@@ -44,6 +52,7 @@
           ></i>
         </span>
       </a>
+
       <a
         href="https://www.linkedin.com/in/rayblair06/"
         target="_blank"
@@ -61,10 +70,11 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import "@/assets/app.scss";
+
 html,
 body {
-  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -84,19 +94,6 @@ body {
   background: linear-gradient(to top, #abecf9, #1762a1);
 
   position: relative;
-}
-
-@media only screen and (max-width: 480px) {
-  .container {
-  }
-
-  h2 {
-    display: none;
-  }
-
-  h3 {
-    display: block !important;
-  }
 }
 
 .container-item {
@@ -133,16 +130,10 @@ h2 {
   font-weight: 350;
   letter-spacing: 2px;
   font-size: 1.4em;
-}
 
-h3 {
-  display: none;
-  margin: 15px 15px 15px 15px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 350;
-  letter-spacing: 2px;
-  font-size: 1.4em;
+  @media only screen and (max-width: 480px) {
+    margin: 15px 15px 15px 15px;
+  }
 }
 
 a {
