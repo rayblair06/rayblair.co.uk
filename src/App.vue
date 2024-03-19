@@ -57,12 +57,12 @@ const socialMedias: Array<SocialMedia> = [
         class="mt-4 mb-8 w-[150px] h-[150px] max-w-[95%] rounded-[50%] border-[1px] border-solid border-black mx-auto"
         sizes="(max-width: 800px) 100vw, 800px"
         srcset="
-          /images/1675778361600_l6miom_c_scale_w_200.jpg 200w,
-          /images/1675778361600_l6miom_c_scale_w_514.jpg 514w,
-          /images/1675778361600_l6miom_c_scale_w_775.jpg 775w,
-          /images/1675778361600_l6miom_c_scale_w_800.jpg 800w
+          /images/1675778361600_l6miom_c_scale_w_200.webp 200w,
+          /images/1675778361600_l6miom_c_scale_w_514.webp 514w,
+          /images/1675778361600_l6miom_c_scale_w_775.webp 775w,
+          /images/1675778361600_l6miom_c_scale_w_800.webp 800w
         "
-        src="/images/1675778361600_l6miom_c_scale_w_800.jpg"
+        src="/images/1675778361600_l6miom_c_scale_w_800.webp"
         alt="Ray Blair"
       />
 
