@@ -6,11 +6,11 @@ type SocialMedia = {
 };
 
 const socialMedias: Array<SocialMedia> = [
-  {
-    icon: "fas fa-link",
-    text: "Website",
-    url: "/blog",
-  },
+  // {
+  //   icon: "fas fa-paper-plane",
+  //   text: "Blog",
+  //   url: "/blog",
+  // },
   {
     icon: "fab fa-github",
     text: "Github",
