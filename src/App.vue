@@ -1,4 +1,13 @@
 <script setup lang="ts">
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import {
+  faGithub,
+  faTwitter,
+  faLinkedin,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 type SocialMedia = {
   icon: string;
   text: string;
@@ -7,27 +16,27 @@ type SocialMedia = {
 
 const socialMedias: Array<SocialMedia> = [
   // {
-  //   icon: "fas fa-paper-plane",
+  //   icon: faPaperPlane,
   //   text: "Blog",
   //   url: "/blog",
   // },
   {
-    icon: "fab fa-github",
+    icon: faGithub,
     text: "Github",
     url: "https://github.com/rayblair06",
   },
   {
-    icon: "fab fa-linkedin",
+    icon: faLinkedin,
     text: "Linkedin",
     url: "https://www.linkedin.com/in/rayblair06/",
   },
   {
-    icon: "fab fa-twitter",
+    icon: faTwitter,
     text: "Twitter",
     url: "https://twitter.com/rayblair06",
   },
   {
-    icon: "fab fa-instagram",
+    icon: faInstagram,
     text: "Instagram",
     url: "https://www.instagram.com/rayblair06/",
   },
@@ -68,10 +77,12 @@ const socialMedias: Array<SocialMedia> = [
             {{ socialMedia.text }}
 
             <span class="fa-stack fa-sm">
-              <i class="fas fa-circle fa-stack-2x fa-inverse"></i>
-              <i
-                :class="`${socialMedia.icon} fa-stack-1x text-[1.2rem] text-[#494d55]`"
-              ></i>
+              <font-awesome-layers class="fas fa-circle fa-stack-2x fa-inverse">
+                <FontAwesomeIcon
+                  class="fa-stack-1x text-[1.2rem] text-[#494d55]"
+                  :icon="socialMedia.icon"
+                />
+              </font-awesome-layers>
             </span>
           </a>
         </template>
