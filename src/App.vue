@@ -55,7 +55,7 @@ const socialMedias: Array<SocialMedia> = [
       </h2>
 
       <img
-        class="mt-4 mb-8 w-[200px] h-[200px] max-w-[95%] rounded-[50%] border-[1px] border-solid border-black mx-auto"
+        class="mt-4 mb-8 w-56 h-56 rounded-[50%] border-[1px] border-solid border-black mx-auto"
         sizes="(max-width: 800px) 100vw, 800px"
         srcset="
           /images/1675778361600_l6miom_c_scale_w_200.webp 200w,
