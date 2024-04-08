@@ -13,11 +13,6 @@ type SocialMedia = {
 };
 
 const socialMedias: Array<SocialMedia> = [
-  // {
-  //   icon: faPaperPlane,
-  //   text: "Blog",
-  //   url: "/blog",
-  // },
   {
     icon: faGithub,
     text: "Github",
@@ -27,16 +22,6 @@ const socialMedias: Array<SocialMedia> = [
     icon: faLinkedin,
     text: "Linkedin",
     url: "https://www.linkedin.com/in/rayblair06/",
-  },
-  {
-    icon: faTwitter,
-    text: "Twitter",
-    url: "https://twitter.com/rayblair06",
-  },
-  {
-    icon: faInstagram,
-    text: "Instagram",
-    url: "https://www.instagram.com/rayblair06/",
   },
 ];
 </script>
